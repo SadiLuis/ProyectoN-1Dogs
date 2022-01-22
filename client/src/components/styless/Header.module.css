@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+.container {
+  background: #d1fd30; /*DEGRADADO*/
+  background: -webkit-linear-gradient(to right, #35f3d3, #d1fd30);
+  background: linear-gradient(to right, #35f3d38c, #d1fd30);
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  position: relative;
+  height: 20vh;
+  border-bottom-left-radius: 25% 20%;
+  border-bottom-right-radius: 10% 50%;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  box-shadow: none;
+}
+.img:hover {
+  transform: scale3d(1.2, 1, 0.5);
+}
+
+.title {
+  display: flex;
+  text-decoration: none;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  text-shadow: 1px 2px 2px #00ff15;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 0;
+  margin-left: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 217, 255);
+  align-items: flex-end;
+}

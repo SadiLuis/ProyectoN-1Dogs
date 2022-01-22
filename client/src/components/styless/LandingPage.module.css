@@ -1,0 +1,70 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"); */
+.container{
+  height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background {
+  object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+.title {
+  background-color: transparent;
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.452);
+  /* background: -webkit-linear-gradient(to right, #35f3d3, #fdc830);
+  background: linear-gradient(to right, #35f3d396, #fdc63085); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 150px;
+  padding: auto;
+  font-family: "Alfa Slab One", bold;
+  font-size: 2rem;
+  letter-spacing: 1.7px;
+  color: rgb(122, 6, 255);
+  text-shadow: 2px 2px rgb(255, 0, 255);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 10%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.452);
+  transition: all 0.3s ease;
+  margin-right: 50px;
+  font-size: 80px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  animation: pulse;
+  animation-duration: 20s;
+  
+}
+
+.icon:hover{
+  animation: pulse;
+  animation-duration: 20s;
+}
+

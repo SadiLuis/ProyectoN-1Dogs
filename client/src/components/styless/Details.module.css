@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0bc6ff;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 0.2rem;
+}
+.imgBkg{
+  
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 40%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.image {
+  position: center;
+  right: 500px;
+  width: 300px;
+  height: 200px;
+  object-fit: center;
+  border-radius: 1%;
+  margin-right: 200px;
+  margin-top: 100px;
+  box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+
+.icon {
+  font-size: 2rem;
+  margin-right: 20px;
+  color:#1800f3;
+}
+
+.info {
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1px;
+  box-shadow: 0px 10px 29px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  background-color: transparent;
+  margin-left: 600px;
+  margin-top: 60px;
+  width: 600px;
+  height: 365px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 40px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+  color: #000000;
+  font-weight: 700;
+  
+}
+
+.temperament {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+ .data {
+  color: #6e35f3;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

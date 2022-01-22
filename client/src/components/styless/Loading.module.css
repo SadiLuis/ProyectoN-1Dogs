@@ -1,0 +1,22 @@
+.bkg{
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 100px;
+
+}
+
+.loadingif {
+    left: 110px;
+    display: flex;
+    position: relative;
+    height: 100px;
+    
+  }
+  .loading{
+    display: flex;
+    left: 110px;
+    color: rgba(21, 255, 0, 0.712);
+    position: relative;
+    font-weight: 800;
+    font-size: 30px;
+  }
